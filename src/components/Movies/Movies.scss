@@ -1,0 +1,19 @@
+.error-title {
+    padding-left: 27vw;
+    color: aliceblue;
+    font-size: 3rem;
+
+    @media  (max-width: 640px) {
+        padding-left: 25vw;
+    }
+    @media  (max-width: 440px) {
+        padding-left: 15vw;
+    }
+    @media  (max-width: 360px) {
+        padding-left: 5vw;
+    }
+}
+
+.movies {
+    margin-top: 20px;
+}

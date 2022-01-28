@@ -1,0 +1,48 @@
+.basket-menu {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 10px 20px;
+    
+    background-color:rgb(102, 102, 102);
+    border-radius: 15px;
+    
+    z-index: 2;
+    
+    .basket-menu__movies-list {
+        text-align: center;
+
+        p {
+            color: white;
+        }
+    }
+}
+
+.basket-menu__item-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    .basket-menu__delete-button:hover {
+        cursor: pointer;
+    }
+}
+
+.basket-menu__arrange {
+    margin-top: 20px;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    margin-top: 20px;
+	display: flex;	
+  	justify-content: center;
+	align-items: center;
+	text-align: center;
+    .basket-menu__button {
+        cursor: pointer;
+
+        &:disabled {
+            background-color:#161516;
+            color:#787878;
+            cursor: default;
+        }
+    }
+}
